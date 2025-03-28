@@ -1,3 +1,3 @@
 FROM eclipse-temurin:17
-COPY target/produceJar.jar producerJar.jar
+COPY target/producerJar.jar producerJar.jar
 CMD ["java", "-jar", "producerJar.jar"]
